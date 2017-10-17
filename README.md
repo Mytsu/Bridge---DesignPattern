@@ -132,6 +132,14 @@ class PadraoBridge {
 
 ```
 
+## Conclusão
+
+Tendo em vista o exemplo anterior, temos um problema facilmente tratado pelo padrão Bridge resolvido. 
+
+A interface DesenhoAPI é o topo da hierarquia da parte de implementação do programa, enquanto que a classe abstrata Forma é o topo da parte abstrata, perceba que uma composição de baixo nível do sistema utiliza a interface DesenhoAPI para implementar a função de desenho, enquanto que a composição de alto nível permite alterar o tamanho do desenho ainda na parte abstrata, separando esta da implementação do resto do programa.
+
+Separando a implementação de alto nível podemos evitar a repetição de código, enquanto que separado a implementação de baixo nível nos permite reaproveitar partes de código enquanto que mantém o sistema desacoplado, estas funcionalidades simples do padrão de projeto facilitam o trabalho do programador que o desenvolve, enquanto que ajuda outros desenvolvedores a entenderem partes do projeto sem ter conhecimento de todo o funcionamento do programa.
+
 ### Referências
 
 > Gamma, E, Helm, R, Johnson, R, Vlissides, J: Design Patterns, page 151. Addison-Wesley, 1995
