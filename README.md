@@ -22,7 +22,7 @@ Quando uma classe varia, as características da programação orientada à objet
 
 ## Visão Geral
 
-O padrão de projeto bridge é um dos 23 padrões bem conhecidos criados pela gangue dos quatro que descreve como solucionar um problema de design recorrente para flexibilidade de design e reuso de software orientado a objetos, este é, bojetos que são fáceis de implementar, mudar, testar e reusar.
+O padrão de projeto bridge é um dos 23 padrões bem conhecidos criados pela gangue dos quatro que descreve como solucionar um problema de design recorrente para flexibilidade de design e reuso de software orientado a objetos, este é, objetos que são fáceis de implementar, mudar, testar e reusar.
 
 #### Quais problemas o Bridge resolve?
 
