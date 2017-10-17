@@ -14,3 +14,12 @@ class PadraoBridge {
         }
     }
 }
+
+/*
+	
+	Resultado esperado:
+
+API1.circle em 1.000000:2.000000 - radius 3.075000
+API2.circle em 5.000000:7.000000 - radius 11.275000
+
+*/
